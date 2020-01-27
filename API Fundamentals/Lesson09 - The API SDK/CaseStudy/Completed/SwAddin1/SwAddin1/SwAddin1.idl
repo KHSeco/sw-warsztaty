@@ -1,0 +1,137 @@
+// SwAddin1.idl : IDL source for SwAddin1
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (SwAddin1.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(1FF9EF95-6059-4E46-84FB-A7455AE69E0A),
+	dual,
+	nonextensible,
+	helpstring("ISwAddin1 Interface"),
+	pointer_default(unique)
+]
+interface ISwAddin1 : IDispatch{
+	[id(3), helpstring("method ToolbarCallback0")] HRESULT ToolbarCallback0();
+	[id(4), helpstring("method ToolbarEnable0")] HRESULT ToolbarEnable0([out, retval] long* status);
+		[id(5), helpstring("method ShowPMP")] HRESULT ShowPMP();
+	[id(6), helpstring("method EnablePMP")] HRESULT EnablePMP([out, retval] long* status);
+		[id(7), helpstring("method FlyoutCallback")] HRESULT FlyoutCallback();
+	[id(8), helpstring("method FlyoutCallback0")] HRESULT FlyoutCallback0();
+	[id(9), helpstring("method FlyoutCallback1")] HRESULT FlyoutCallback1();
+	[id(10), helpstring("method FlyoutEnable0")] HRESULT FlyoutEnable0([out, retval] long* status);
+	[id(11), helpstring("method FlyoutEnableCallback0")] HRESULT FlyoutEnableCallback0([out, retval] long* status);
+};
+[
+	object,
+	uuid(913D3C1B-BF72-431C-95C2-230007C7E811),
+	dual,
+	nonextensible,
+	helpstring("ISwDocument Interface"),
+	pointer_default(unique)
+]
+interface ISwDocument : IDispatch{
+};
+[
+	object,
+	uuid(9AEC8ED1-4FB1-400C-A07D-BFDDB72D9A37),
+	dual,
+	nonextensible,
+	helpstring("IDocView Interface"),
+	pointer_default(unique)
+]
+interface IDocView : IDispatch{
+};
+[
+	object,
+	uuid(6696C7D8-2EDA-49DF-9173-C8BDFFC82FCD),
+	dual,
+	nonextensible,
+	helpstring("IBitmapHandler Interface"),
+	pointer_default(unique)
+]
+interface IBitmapHandler : IDispatch{
+	[id(1), helpstring("method CreateBitmapFileFromResource")] HRESULT CreateBitmapFileFromResource([in] DWORD resID, [out, retval] BSTR* retval);
+	[id(2), helpstring("method Dispose")] HRESULT Dispose();
+};
+[
+	object,
+	uuid(57ED4E70-00D5-4E06-8EF9-98EE68924EEC),
+	dual,
+	nonextensible,
+	helpstring("IPMPageHandler Interface"),
+	pointer_default(unique)
+]
+interface IPMPageHandler : IDispatch{
+};
+[
+	object,
+	uuid(E1D30AC7-40DF-45EA-AECC-0AFF6E068B0B),
+	dual,
+	nonextensible,
+	helpstring("IUserPropertyManagerPage Interface"),
+	pointer_default(unique)
+]
+interface IUserPropertyManagerPage : IDispatch{
+};
+[
+	uuid(33106E56-D952-4D13-A999-356E3B2B5D5B),
+	version(1.0),
+	helpstring("SwAddin1 1.0 Type Library")
+]
+library SwAddin1Lib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(94FF13F2-F14F-4A34-A10A-ADE68D4A2CEC),
+		helpstring("SwAddin1 Class")
+	]
+	coclass SwAddin1
+	{
+		[default] interface ISwAddin1;
+	};
+	[
+		uuid(5C9B3F60-00BF-4057-BA87-EB745B12A3F8),
+		helpstring("SwDocument Class")
+	]
+	coclass SwDocument
+	{
+		[default] interface ISwDocument;
+	};
+	[
+		uuid(05DD4AC8-1C9D-459E-BB00-8891F5E8D327),
+		helpstring("DocView Class")
+	]
+	coclass DocView
+	{
+		[default] interface IDocView;
+	};
+	[
+		uuid(C7920277-3DFB-4E4D-AB37-D0DD39363EF8),
+		helpstring("BitmapHandler Class")
+	]
+	coclass BitmapHandler
+	{
+		[default] interface IBitmapHandler;
+	};
+	[
+		uuid(38A8DD95-243C-4403-8333-CE6F266B9465),
+		helpstring("PMPageHandler Class")
+	]
+	coclass PMPageHandler
+	{
+		[default] interface IPMPageHandler;
+	};
+	[
+		uuid(A631B4EE-6E22-4ACB-92A4-5E4440D01858),
+		helpstring("UserPropertyManagerPage Class")
+	]
+	coclass UserPropertyManagerPage
+	{
+		[default] interface IUserPropertyManagerPage;
+	};
+};

@@ -1,0 +1,9 @@
+C:\MyAddIns\SwVBAddin1\SwVBAddin1\bin\SwVBAddin1.dll
+C:\MyAddIns\SwVBAddin1\SwVBAddin1\bin\SwVBAddin1.pdb
+C:\MyAddIns\SwVBAddin1\SwVBAddin1\bin\SwVBAddin1.xml
+C:\MyAddIns\SwVBAddin1\SwVBAddin1\bin\SwVBAddin1.tlb
+C:\MyAddIns\SwVBAddin1\SwVBAddin1\bin\SolidWorksTools.dll
+C:\MyAddIns\SwVBAddin1\SwVBAddin1\obj\Debug\ResolveAssemblyReference.cache
+C:\MyAddIns\SwVBAddin1\SwVBAddin1\obj\Debug\SwVBAddin1.dll
+C:\MyAddIns\SwVBAddin1\SwVBAddin1\obj\Debug\SwVBAddin1.xml
+C:\MyAddIns\SwVBAddin1\SwVBAddin1\obj\Debug\SwVBAddin1.pdb

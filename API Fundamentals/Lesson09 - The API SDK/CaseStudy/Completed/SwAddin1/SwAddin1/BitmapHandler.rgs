@@ -1,0 +1,27 @@
+HKCR
+{
+	SwAddin1.BitmapHandler.1 = s 'BitmapHandler Class'
+	{
+		CLSID = s '{C7920277-3DFB-4E4D-AB37-D0DD39363EF8}'
+	}
+	SwAddin1.BitmapHandler = s 'BitmapHandler Class'
+	{
+		CLSID = s '{C7920277-3DFB-4E4D-AB37-D0DD39363EF8}'
+		CurVer = s 'SwAddin1.BitmapHandler.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {C7920277-3DFB-4E4D-AB37-D0DD39363EF8} = s 'BitmapHandler Class'
+		{
+			ProgID = s 'SwAddin1.BitmapHandler.1'
+			VersionIndependentProgID = s 'SwAddin1.BitmapHandler'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Both'
+			}
+			val AppID = s '%APPID%'
+			'TypeLib' = s '{33106E56-D952-4D13-A999-356E3B2B5D5B}'
+		}
+	}
+}

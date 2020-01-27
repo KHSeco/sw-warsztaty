@@ -1,0 +1,27 @@
+HKCR
+{
+	SwAddin1.DocView.1 = s 'DocView Class'
+	{
+		CLSID = s '{05DD4AC8-1C9D-459E-BB00-8891F5E8D327}'
+	}
+	SwAddin1.DocView = s 'DocView Class'
+	{
+		CLSID = s '{05DD4AC8-1C9D-459E-BB00-8891F5E8D327}'
+		CurVer = s 'SwAddin1.DocView.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {05DD4AC8-1C9D-459E-BB00-8891F5E8D327} = s 'DocView Class'
+		{
+			ProgID = s 'SwAddin1.DocView.1'
+			VersionIndependentProgID = s 'SwAddin1.DocView'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Both'
+			}
+			val AppID = s '%APPID%'
+			'TypeLib' = s '{33106E56-D952-4D13-A999-356E3B2B5D5B}'
+		}
+	}
+}

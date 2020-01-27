@@ -1,0 +1,7 @@
+C:\MyAddIns\SwCSharpAddin1\SwCSharpAddin1\bin\Debug\SwCSharpAddin1.dll
+C:\MyAddIns\SwCSharpAddin1\SwCSharpAddin1\bin\Debug\SwCSharpAddin1.pdb
+C:\MyAddIns\SwCSharpAddin1\SwCSharpAddin1\bin\Debug\SwCSharpAddin1.tlb
+C:\MyAddIns\SwCSharpAddin1\SwCSharpAddin1\bin\Debug\SolidWorksTools.dll
+C:\MyAddIns\SwCSharpAddin1\SwCSharpAddin1\obj\Debug\ResolveAssemblyReference.cache
+C:\MyAddIns\SwCSharpAddin1\SwCSharpAddin1\obj\Debug\SwCSharpAddin1.dll
+C:\MyAddIns\SwCSharpAddin1\SwCSharpAddin1\obj\Debug\SwCSharpAddin1.pdb

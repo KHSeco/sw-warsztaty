@@ -1,0 +1,27 @@
+HKCR
+{
+	SwAddin1.PMPageHandler.1 = s 'PMPageHandler Class'
+	{
+		CLSID = s '{38A8DD95-243C-4403-8333-CE6F266B9465}'
+	}
+	SwAddin1.PMPageHandler = s 'PMPageHandler Class'
+	{
+		CLSID = s '{38A8DD95-243C-4403-8333-CE6F266B9465}'
+		CurVer = s 'SwAddin1.PMPageHandler.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {38A8DD95-243C-4403-8333-CE6F266B9465} = s 'PMPageHandler Class'
+		{
+			ProgID = s 'SwAddin1.PMPageHandler.1'
+			VersionIndependentProgID = s 'SwAddin1.PMPageHandler'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Both'
+			}
+			val AppID = s '%APPID%'
+			'TypeLib' = s '{33106E56-D952-4D13-A999-356E3B2B5D5B}'
+		}
+	}
+}

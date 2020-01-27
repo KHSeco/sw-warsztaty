@@ -1,0 +1,9 @@
+C:\SolidWorks Training Files\API Fundamentals\Lesson09 - The API SDK\CaseStudy\SwVBAddin2\SwVBAddin2\bin\SwVBAddin2.dll
+C:\SolidWorks Training Files\API Fundamentals\Lesson09 - The API SDK\CaseStudy\SwVBAddin2\SwVBAddin2\bin\SwVBAddin2.pdb
+C:\SolidWorks Training Files\API Fundamentals\Lesson09 - The API SDK\CaseStudy\SwVBAddin2\SwVBAddin2\bin\SwVBAddin1.xml
+C:\SolidWorks Training Files\API Fundamentals\Lesson09 - The API SDK\CaseStudy\SwVBAddin2\SwVBAddin2\bin\SwVBAddin2.tlb
+C:\SolidWorks Training Files\API Fundamentals\Lesson09 - The API SDK\CaseStudy\SwVBAddin2\SwVBAddin2\bin\SolidWorksTools.dll
+C:\SolidWorks Training Files\API Fundamentals\Lesson09 - The API SDK\CaseStudy\SwVBAddin2\SwVBAddin2\obj\Debug\ResolveAssemblyReference.cache
+C:\SolidWorks Training Files\API Fundamentals\Lesson09 - The API SDK\CaseStudy\SwVBAddin2\SwVBAddin2\obj\Debug\SwVBAddin2.dll
+C:\SolidWorks Training Files\API Fundamentals\Lesson09 - The API SDK\CaseStudy\SwVBAddin2\SwVBAddin2\obj\Debug\SwVBAddin1.xml
+C:\SolidWorks Training Files\API Fundamentals\Lesson09 - The API SDK\CaseStudy\SwVBAddin2\SwVBAddin2\obj\Debug\SwVBAddin2.pdb
